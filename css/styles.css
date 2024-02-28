@@ -36,6 +36,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -66,6 +67,7 @@ nav li {
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -111,6 +113,7 @@ nav li {
 }
 
 .page-header {
+    border-bottom: 1px solid #e7e9fc;
 }
 .page-heading {
     font-size: 56px;
@@ -124,7 +127,6 @@ nav li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    border-bottom: 1px solid #e7e9fc;
 }
 .call-for-action {
     display: block;
