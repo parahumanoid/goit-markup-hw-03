@@ -201,6 +201,10 @@ nav li {
     gap: 24px;
 }
 
+.staff-card-container {
+    padding: 32px 0;
+}
+
 .staff-header {
     font-size: 36px;
     line-height: 1.11;
@@ -221,12 +225,15 @@ nav li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .staff-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .portfolio-header {
     font-size: 36px;
