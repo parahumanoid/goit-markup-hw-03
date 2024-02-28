@@ -189,8 +189,15 @@ nav li {
 
 }
 .staff{
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
+
+.staff-list {
+    display: flex;
+    gap: 24px;
+}
+
 .staff-header {
     font-size: 36px;
     line-height: 1.11;
@@ -198,9 +205,12 @@ nav li {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .staff-card {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 .staff-name {
     font-weight: 500;
