@@ -14,6 +14,20 @@ img {
     margin: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -108,10 +122,6 @@ nav li {
     background-color: #2e2f42;
     padding: 188px 0;
 }
-.hero .container {
-    padding-top: 184px;
-    padding-bottom: 188px;
-}
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -152,6 +162,17 @@ nav li {
     background-color: #404BBF;
 }
 
+.advantages {
+    padding: 120px 0;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+.advantages-list-item {
+    width: calc((100%-72px)/4);
+}
 .advantage-card-header {
     font-weight: 500;
     font-size: 20px;
