@@ -9,6 +9,21 @@ a{
 ul, ol {
     list-style: none;
 }
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background is not set on container, but the section is contains */
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     color:  #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -25,6 +40,22 @@ ul, ol {
 .logo-part-footer {
     color: #F4F4FD;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 76px;
+    align-items: center;
+    height: 72px;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+nav li {
+    display: inline-block;
+}
+
 .nav-link {
     color:  #2E2F42;
     font-size: 16px;
@@ -38,6 +69,18 @@ ul, ol {
 }
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    
+}
+.address ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.address ul li { 
+    display: inline-block; 
 }
 .address-link {
     color:  #434455;
@@ -58,14 +101,28 @@ ul, ol {
 .hero {
     background-color: #2e2f42;
 }
+.hero .container {
+    padding-top: 184px;
+    padding-bottom: 188px;
+}
+
 .page-header {
+}
+.page-heading {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 0;
+    text-wrap: balance;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .call-for-action {
+    display: block;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -74,6 +131,9 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .call-for-action:hover,
 .call-for-action:focus {
