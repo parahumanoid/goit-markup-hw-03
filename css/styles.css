@@ -236,7 +236,7 @@ nav li {
     text-align: center;
 }
 .portfolio {
-    padding-top: 120px 0;
+    padding: 120px 0;
 }
 
 .portfolio-header {
@@ -250,7 +250,8 @@ nav li {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 48px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
     width: calc((100% - 48px) / 3);
