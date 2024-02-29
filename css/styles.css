@@ -76,7 +76,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 76px;
     align-items: center;
     height: 72px;
 }
@@ -290,6 +289,7 @@ nav li {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 .footer-slogan {
     line-height: 1.5;
