@@ -1,13 +1,3 @@
 {
-  "elements": [
-    "html5"
-  ],
-  "extends": [
-    "html-validate:recommended"
-  ],
-  "rules": {
-    "void": [
-      "off", {"style": "omit"}
-  ]
-  }
+  "extends": ["html-validate:standard"]
 }
